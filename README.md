@@ -1,5 +1,9 @@
 # 📚 NoteBot — AI RAG Tutor
 
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Streamlit%20Cloud-a855f7?style=for-the-badge)](https://student-noteboot-3jnrjfsxepa4lhvtuyjmqb.streamlit.app/)
+
+**🌐 Live App:** [https://student-noteboot-3jnrjfsxepa4lhvtuyjmqb.streamlit.app/](https://student-noteboot-3jnrjfsxepa4lhvtuyjmqb.streamlit.app/)
+
 **NoteBot** is an intelligent, AI-powered study assistant built with [Streamlit](https://streamlit.io/). It uses a **Retrieval-Augmented Generation (RAG)** pipeline to let you upload any PDF document and ask natural language questions — getting precise, context-aware answers generated from your own notes.
 
 ---
@@ -60,6 +64,8 @@ streamlit run app.py
 
 The app will open at **http://localhost:8501**
 
+> 💡 Or use the **live hosted version** directly at: [https://student-noteboot-3jnrjfsxepa4lhvtuyjmqb.streamlit.app/](https://student-noteboot-3jnrjfsxepa4lhvtuyjmqb.streamlit.app/)
+
 ---
 
 ## ⚙️ Environment Variables (Optional)
@@ -77,7 +83,7 @@ You can optionally set API keys as environment variables instead of entering the
 
 ## 📖 How to Use
 
-1. Open the app at [http://localhost:8501](http://localhost:8501).
+1. Open the live app at 👉 **[https://student-noteboot-3jnrjfsxepa4lhvtuyjmqb.streamlit.app/](https://student-noteboot-3jnrjfsxepa4lhvtuyjmqb.streamlit.app/)**
 2. In the **sidebar**, select:
    - **LLM Provider**: `Google Gemini` (recommended) or `OpenAI`.
    - **Gemini Model**: `gemini-3.5-flash` (default, free-tier supported).
@@ -97,14 +103,28 @@ You can optionally set API keys as environment variables instead of entering the
 
 ---
 
+## 🌐 Deployment
+
+| Property | Value |
+|---|---|
+| **Live URL** | [https://student-noteboot-3jnrjfsxepa4lhvtuyjmqb.streamlit.app/](https://student-noteboot-3jnrjfsxepa4lhvtuyjmqb.streamlit.app/) |
+| **Platform** | Streamlit Community Cloud (Free) |
+| **GitHub Repo** | [STUDENT-NOTEBOOT](https://github.com/balachandragonda261-cell/STUDENT-NOTEBOOT) |
+| **Branch** | `master` |
+| **Auto-deploy** | ✅ Pushes to `master` redeploy automatically |
+
+---
+
 ## 📁 Project Structure
 
 ```
-NEWPROJECT/
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
-├── .gitignore          # Files excluded from Git
-└── README.md           # This file
+STUDENT-NOTEBOOT/
+├── app.py                    # Main Streamlit application
+├── requirements.txt          # Python dependencies
+├── .streamlit/
+│   └── config.toml           # Streamlit production config
+├── .gitignore                # Files excluded from Git
+└── README.md                 # This file
 ```
 
 ---

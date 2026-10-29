@@ -45,9 +45,11 @@ Thumbs.db
 desktop.ini
 
 # ============================
-# Streamlit cache
+# Streamlit Cloud
 # ============================
+# NEVER commit secrets.toml - it contains your API keys
 .streamlit/secrets.toml
+# config.toml IS committed - it only contains display settings (no secrets)
 
 # ============================
 # FAISS vector indexes / embeddings

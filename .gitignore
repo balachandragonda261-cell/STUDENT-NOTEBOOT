@@ -1,0 +1,72 @@
+# ============================
+# Virtual Environment
+# ============================
+.venv/
+venv/
+env/
+ENV/
+
+# ============================
+# Python Cache
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# ============================
+# Environment / Secrets
+# ============================
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+config.local.*
+
+# ============================
+# IDE / Editor
+# ============================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ============================
+# OS Files
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Streamlit cache
+# ============================
+.streamlit/secrets.toml
+
+# ============================
+# FAISS vector indexes / embeddings
+# ============================
+faiss_index/
+*.faiss
+*.pkl
+*.index
+
+# ============================
+# User uploaded PDFs / data
+# ============================
+*.pdf
+uploads/
+data/
+
+# ============================
+# Build artifacts
+# ============================
+dist/
+build/
+*.egg-info/

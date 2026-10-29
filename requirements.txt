@@ -1,0 +1,10 @@
+streamlit
+PyPDF2
+langchain
+langchain-classic
+langchain-community
+langchain-openai
+faiss-cpu
+tiktoken
+sentence-transformers
+langchain-google-genai
